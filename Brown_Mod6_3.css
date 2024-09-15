@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header.landing-page {
+    background: #333;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header.landing-page h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header.landing-page p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+header.landing-page nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+header.landing-page nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header.landing-page nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-page, .hobbies-page {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-page h2, .hobbies-page h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+footer.contact-page {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer.contact-page h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+footer.contact-page a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer.contact-page a:hover {
+    text-decoration: underline;
+}
